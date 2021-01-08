@@ -1,6 +1,6 @@
-package io.javabrains.springsecurityjpa.repositories;
+package com.fahd.springsecurityjpa.repositories;
 
-import io.javabrains.springsecurityjpa.models.User;
+import com.fahd.springsecurityjpa.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

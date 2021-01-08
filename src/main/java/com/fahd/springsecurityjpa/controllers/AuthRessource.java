@@ -1,8 +1,8 @@
-package io.javabrains.springsecurityjpa.controllers;
+package com.fahd.springsecurityjpa.controllers;
 
-import io.javabrains.springsecurityjpa.models.AuthenticationRequest;
-import io.javabrains.springsecurityjpa.models.AuthenticationResponse;
-import io.javabrains.springsecurityjpa.util.JwtUtil;
+import com.fahd.springsecurityjpa.models.AuthenticationRequest;
+import com.fahd.springsecurityjpa.models.AuthenticationResponse;
+import com.fahd.springsecurityjpa.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

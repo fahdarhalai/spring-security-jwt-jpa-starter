@@ -1,7 +1,7 @@
-package io.javabrains.springsecurityjpa.services.auth;
+package com.fahd.springsecurityjpa.services.auth;
 
-import io.javabrains.springsecurityjpa.models.User;
-import io.javabrains.springsecurityjpa.repositories.UserRepository;
+import com.fahd.springsecurityjpa.models.User;
+import com.fahd.springsecurityjpa.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

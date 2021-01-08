@@ -1,6 +1,6 @@
-package io.javabrains.springsecurityjpa.services.auth;
+package com.fahd.springsecurityjpa.services.auth;
 
-import io.javabrains.springsecurityjpa.models.User;
+import com.fahd.springsecurityjpa.models.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

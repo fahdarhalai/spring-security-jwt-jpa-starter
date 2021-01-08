@@ -1,4 +1,4 @@
-package io.javabrains.springsecurityjpa.util;
+package com.fahd.springsecurityjpa.util;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

@@ -1,6 +1,6 @@
-package io.javabrains.springsecurityjpa.services.auth;
+package com.fahd.springsecurityjpa.services.auth;
 
-import io.javabrains.springsecurityjpa.filters.JwtRequestFilter;
+import com.fahd.springsecurityjpa.filters.JwtRequestFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -32,8 +32,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.csrf().disable()
                 .authorizeRequests()
-                .antMatchers("/patient").hasRole("PATIENT")
                 .antMatchers("/user").hasRole("USER")
+                .antMatchers("/admin").hasRole("ADMIN")
                 .anyRequest().permitAll()
                 .and().sessionManagement()
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS);

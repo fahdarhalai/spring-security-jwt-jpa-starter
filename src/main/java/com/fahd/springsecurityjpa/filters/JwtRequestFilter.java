@@ -1,6 +1,6 @@
-package io.javabrains.springsecurityjpa.filters;
+package com.fahd.springsecurityjpa.filters;
 
-import io.javabrains.springsecurityjpa.util.JwtUtil;
+import com.fahd.springsecurityjpa.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;

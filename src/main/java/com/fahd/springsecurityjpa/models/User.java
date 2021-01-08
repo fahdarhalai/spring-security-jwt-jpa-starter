@@ -1,4 +1,4 @@
-package io.javabrains.springsecurityjpa.models;
+package com.fahd.springsecurityjpa.models;
 
 import javax.persistence.*;
 

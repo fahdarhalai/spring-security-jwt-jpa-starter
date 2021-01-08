@@ -1,4 +1,4 @@
-package io.javabrains.springsecurityjpa.controllers;
+package com.fahd.springsecurityjpa.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
